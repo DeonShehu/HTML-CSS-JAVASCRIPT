@@ -1,0 +1,31 @@
+p{
+    color: black;
+    font-size: 75px;
+   /* margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margi*/
+
+    
+}
+ 
+
+h1 {
+color:green;
+}
+
+
+div{
+    height: 200px;
+    width: 400px;
+    background-color: aqua;
+
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-left:10px ;
+    padding-right:10px ;
+
+
+}
+
