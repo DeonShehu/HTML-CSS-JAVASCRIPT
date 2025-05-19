@@ -1,0 +1,112 @@
+#translate{
+    width:200px;
+    height:200px;
+    border-radius: 5px;
+    color:white;
+    background-color: blue;
+    transform: translate(100px,50px);
+    padding:10px;
+}
+
+#rotate{
+    width:200px;
+    height:200px;
+    border-radius: 5px;
+    color:white;
+    background-color: blue;
+    transform: rotate(45 deg);
+    padding:10px;
+}
+
+#scale{
+    width:200px;
+    height:200px;
+    border-radius: 5px;
+    color:white;
+    background-color: blue;
+    transform: scale(2,2);
+    padding:10px;
+}
+
+#scaleY{
+    width:200px;
+    height:200px;
+    border-radius: 5px;
+    color:white;
+    background-color: blue;
+    transform: scaleY(3);
+   
+}
+
+#scaleX{
+    width:200px;
+    height:200px;
+    border-radius: 5px;
+    color:white;
+    background-color: blue;
+    transform: scaleX(3);
+   
+}
+
+#skewX{
+    width:200px;
+    height:200px;
+    border-radius: 5px;
+    color:white;
+    background-color: blue;
+    transform: skewx(-4 deg);
+   
+}
+
+#skewyX{
+    width:200px;
+    height:200px;
+    border-radius: 5px;
+    color:white;
+    background-color: blue;
+    transform: skewy(-4 deg);
+   
+}
+
+#rotateX{
+    width:200px;
+    height:200px;
+    border-radius: 5px;
+    color:white;
+    background-color: blue;
+    transform: rotatex(130 deg);
+   
+}
+
+#rotatey{
+    width:200px;
+    height:200px;
+    border-radius: 5px;
+    color:white;
+    background-color: blue;
+    transform: rotatey(130 deg);
+   
+}
+
+#rotatez{
+    width:200px;
+    height:200px;
+    border-radius: 5px;
+    color:white;
+    background-color: blue;
+    transform: rotatez(130 deg);
+   
+}
+
+#div{
+    width: 100px;
+    height: 110px;
+    background: red;
+    transition: 3s;border-radius: 5s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+}
+#div:hover{
+    background-color: blue;
+    border-radius: 50%;
+}
