@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kontakti - Shkolla Hasan Prishtina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html"><img src="images/hasan.png" alt="Shkolla Hasan Prishtina Logo" class="logo" /></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html" class="nav-link">Ballina</a></li>
+          <li><a href="about.html" class="nav-link">Rreth Nesh</a></li>
+          <li><a href="contact.html" class="nav-link active">Kontakti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 80px 0; max-width: 700px;">
+    <h1 class="section-title" style="margin-bottom: 40px;">Na Kontaktoni</h1>
+
+    <p>Na dërgoni një mesazh ose na telefononi nëse keni pyetje apo kërkesa.</p>
+
+    <form action="mailto:contact@hasanprishtina.edu" method="post" enctype="text/plain" style="margin-top: 30px;">
+      <label for="name">Emri juaj:</label><br />
+      <input type="text" id="name" name="Emri" required style="width:100%; padding:8px; margin-bottom:15px;"/>
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="Email" required style="width:100%; padding:8px; margin-bottom:15px;"/>
+
+      <label for="message">Mesazhi:</label><br />
+      <textarea id="message" name="Mesazhi" rows="6" required style="width:100%; padding:8px; margin-bottom:20px;"></textarea>
+
+      <button type="submit" class="btn btn-primary" style="padding: 12px 25px;">Dërgo</button>
+    </form>
+
+    <section style="margin-top: 60px; font-size: 1rem; color: #555;">
+      <h2>Informacion Kontakti</h2>
+      <p><strong>Email:</strong> contact@hasanprishtina.edu</p>
+      <p><strong>Telefon:</strong> +383 44 123 456</p>
+      <p><strong>Adresa:</strong> Rruga Hasan Prishtina, Prishtinë, Kosovë</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Kontakt: contact@hasanprishtina.edu | +383 44 123 456</p>
+      <p>&copy; 2025 Shkolla Hasan Prishtina</p>
+    </div>
+  </footer>
+
+</body>
+</html>
